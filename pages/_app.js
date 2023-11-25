@@ -8,6 +8,7 @@ import PageChange from "components/PageChange/PageChange.js";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "styles/tailwind.css";
+import Script from "next/script";
 
 Router.events.on("routeChangeStart", (url) => {
   console.log(`Loading: ${url}`);
@@ -36,6 +37,7 @@ export default class MyApp extends App {
 
     return { pageProps };
   }
+
   render() {
     const { Component, pageProps } = this.props;
 
@@ -49,11 +51,11 @@ export default class MyApp extends App {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <title>Aletheia SDK</title>
-          <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
         </Head>
         <Layout>
           <Component {...pageProps} />
         </Layout>
+        <Script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE" />
       </React.Fragment>
     );
   }
