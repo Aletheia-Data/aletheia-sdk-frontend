@@ -527,45 +527,39 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Developers and Innovators
                   </h5>
-                  <Link legacyBehavior href="/auth/login">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
-                      <img
-                        alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/login.jpeg"
-                      />
-                    </div>
-                  </Link>
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src="/img/login.jpeg"
+                    />
+                  </div>
                 </div>
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Government Agencies and Organizations
                   </h5>
-                  <Link legacyBehavior href="/profile">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
-                      <img
-                        alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/profile.png"
-                      />
-                    </div>
-                  </Link>
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src="/img/profile.png"
+                    />
+                  </div>
                 </div>
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Data Enthusiasts and Analysts
                   </h5>
-                  <Link legacyBehavior href="/landing">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
-                      <img
-                        alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/landing.jpeg"
-                      />
-                    </div>
-                  </Link>
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src="/img/landing.jpeg"
+                    />
+                  </div>
                 </div>
 
               </div>
